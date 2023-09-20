@@ -5,6 +5,10 @@
         static void Main(string[] args)
         {
             char again = 'д';
+            if (again == 'и')
+            {
+                Console.WriteLine("Типа история калькулятора");
+            }
             while (again == 'д')
             {
                 double a;
