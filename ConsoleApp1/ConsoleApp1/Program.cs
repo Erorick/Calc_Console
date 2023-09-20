@@ -41,8 +41,14 @@
 
                 else if (oper == '/')
                 {
+                    if(b == 0)
+                    {
+                        Console.WriteLine("Ошибка, делить на ноль нельзя");
+                    }
+                    else { 
                     total = a / b;
                     Console.WriteLine("Деление " + a + " на " + b + " равно " + total + ".");
+                    }
                 }
                 else
                 {
